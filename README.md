@@ -1,5 +1,5 @@
 <!-- SPDX-License-Identifier: MIT -->
-# My Project
+# Mercedes-Benz Mobile SDK - LoggerKit module for Android
 
 ## Intended Usage
 
