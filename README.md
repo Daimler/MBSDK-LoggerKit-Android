@@ -3,7 +3,7 @@
 ![MBLoggerKit](logo.jpg "Banner")
 
 ![License](https://img.shields.io/badge/Licence-MIT-green) 
-![Plattform](https://img.shields.io/badge/Plattforms-Android-blue)
+![Platform](https://img.shields.io/badge/Platforms-Android-blue)
 ![Version](https://img.shields.io/badge/Azure%20Artifacts-1.0-orange)
 
 ## Requirements
@@ -12,7 +12,18 @@
 
 ## Intended Usage
 
-⚠️ //TODO// Describe your example! Eg: This project is made for cooking the best Tiramisu. It works best with high quality ingredients and the best tools. Please describe your project as accurately and concisely as possible to help others understand your use case.
+This module contains the Logger used by all other Mercedes-Benz Mobile SDK modules.  
+Initialize it the following way in your `Application` subclass:  
+```kotlin
+MBLoggerKit.usePrinterConfig(PrinterConfig.Builder()
+    .addAdapter(AndroidLogAdapter.Builder()
+        .setLoggingEnabled(loggingEnabled)
+        .build()
+    ).build()
+)
+```
+Log your statements as you would with standard Android logs but use the class `MBLoggerKit` instead of `Log`, 
+e.g. `MBLoggerKit.d("My debug log statement.")`.
 
 ## Installation
 
