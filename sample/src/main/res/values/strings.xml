@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">MBLoggerKit Sample</string>
+
+    <string name="log_input_here">Log Input here</string>
+</resources>

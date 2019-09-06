@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">ModuleTemplate</string>
+    <string name="share_as_text">Share as text</string>
+    <string name="share_as_file">Share as file</string>
+    <string name="show_log">Show log</string>
+    <string name="show_chooser">Show Chooser</string>
+</resources>

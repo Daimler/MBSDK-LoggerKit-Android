@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="spacing_m">16dp</dimen>
+    <dimen name="spacing_s">4dp</dimen>
+    <dimen name="divider_height">0.5dp</dimen>
+    <dimen name="log_text_size">12sp</dimen>
+</resources>

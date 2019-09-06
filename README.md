@@ -1,5 +1,14 @@
 <!-- SPDX-License-Identifier: MIT -->
-# Mercedes-Benz Mobile SDK - LoggerKit module for Android
+
+![MBLoggerKit](logo.jpg "Banner")
+
+![License](https://img.shields.io/badge/Licence-MIT-green) 
+![Plattform](https://img.shields.io/badge/Plattforms-Android-blue)
+![Version](https://img.shields.io/badge/Azure%20Artifacts-1.0-orange)
+
+## Requirements
+* __Minimum Android SDK:__ MBLoggerKit requires a minimum API level of 19. 
+* __Compile Android SDK:__ MBLoggerKit requires you to compile against minimum API level 27.
 
 ## Intended Usage
 
@@ -7,7 +16,23 @@
 
 ## Installation
 
-⚠️ //TODO// Add your information and describe how the project can be used.
+Add the following maven url to your project `build.gradle`:  
+```gradle
+allprojects {
+    repositories {
+        google()
+        jcenter()
+        maven {
+            url 'https://pkgs.dev.azure.com/daimler-ris/sdk/_packaging/release/maven/v1'
+        }
+    }
+}
+```
+
+Add to your app's `build.gradle`:  
+```gradle
+implementation "com.daimler.mm:MBLoggerKit:$mb_logger_kit_version"
+```
 
 ## Contributing
 
