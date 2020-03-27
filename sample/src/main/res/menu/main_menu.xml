@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/show_log"
+        android:title="@string/show_log"
+        app:showAsAction="never"/>
+
+    <item
+        android:id="@+id/show_chooser"
+        android:title="@string/show_chooser"
+        app:showAsAction="never"/>
+
+    <item
+        android:id="@+id/generate_crash"
+        android:title="@string/generate_crash"
+        app:showAsAction="never" />
+</menu>
